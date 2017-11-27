@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{530CC9E3-01EB-4F9D-8A39-8D0C2A9EE814}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dex.API", "src\Services\Dex\Dex.API\Dex.API.csproj", "{037C3D6D-2110-4E1F-BD5F-C3A329995FDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dex", "Dex", "{570D91C4-2CBE-4AD7-BB8F-7EDE20D82110}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{545F7F81-F013-487E-BE1D-5AF94869E387}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teambuilder", "Teambuilder", "{23DA1585-3808-4648-8542-0B7417053694}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Damagecalc", "Damagecalc", "{6D548D7B-7E72-4A4B-AE3A-E17CC86EEBB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teambuilder.API", "src\Services\TeamBuilder\Teambuilder.API\Teambuilder.API.csproj", "{C7F51AD2-E45A-4FA8-8F40-10FC181B395E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{037C3D6D-2110-4E1F-BD5F-C3A329995FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037C3D6D-2110-4E1F-BD5F-C3A329995FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037C3D6D-2110-4E1F-BD5F-C3A329995FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037C3D6D-2110-4E1F-BD5F-C3A329995FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F51AD2-E45A-4FA8-8F40-10FC181B395E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F51AD2-E45A-4FA8-8F40-10FC181B395E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F51AD2-E45A-4FA8-8F40-10FC181B395E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F51AD2-E45A-4FA8-8F40-10FC181B395E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{037C3D6D-2110-4E1F-BD5F-C3A329995FDA} = {570D91C4-2CBE-4AD7-BB8F-7EDE20D82110}
+		{570D91C4-2CBE-4AD7-BB8F-7EDE20D82110} = {530CC9E3-01EB-4F9D-8A39-8D0C2A9EE814}
+		{545F7F81-F013-487E-BE1D-5AF94869E387} = {530CC9E3-01EB-4F9D-8A39-8D0C2A9EE814}
+		{23DA1585-3808-4648-8542-0B7417053694} = {530CC9E3-01EB-4F9D-8A39-8D0C2A9EE814}
+		{6D548D7B-7E72-4A4B-AE3A-E17CC86EEBB3} = {530CC9E3-01EB-4F9D-8A39-8D0C2A9EE814}
+		{C7F51AD2-E45A-4FA8-8F40-10FC181B395E} = {23DA1585-3808-4648-8542-0B7417053694}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68426F31-9507-460E-BE61-41C5CAAF94CE}
+	EndGlobalSection
+EndGlobal
