@@ -5,9 +5,8 @@ using System.Threading.Tasks;
 
 namespace Dex.API.Infrastructure.Repositories
 {
-    public interface IPokemonsRepository
+    public interface IDexRepository
     {
-        List<Object> GetPokemonsList();
-        Object GetPokemonInfo(string pmid);
+        List<Object> GetPokemonList();
     }
 }

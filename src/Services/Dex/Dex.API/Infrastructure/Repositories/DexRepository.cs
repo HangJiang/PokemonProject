@@ -5,14 +5,9 @@ using System.Threading.Tasks;
 
 namespace Dex.API.Infrastructure.Repositories
 {
-    public class PokemonsRepository : IPokemonsRepository
+    public class DexRepository : IDexRepository
     {
-        public object GetPokemonInfo(string pmid)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<object> GetPokemonsList()
+        public List<object> GetPokemonList()
         {
             throw new NotImplementedException();
         }
