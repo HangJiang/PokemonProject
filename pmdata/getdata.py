@@ -28,7 +28,7 @@ def GetPokedex():
 		except Exception as e:
 			logging.info(filename + 'get failed ')
 
-
+//asdasdasd
 def PokedexFilter(htmldata, filename):
 	#print(htmldata)
 	m = re.search(r'app.factory(.)*};}\);', htmldata)
